@@ -14,12 +14,19 @@ php artisan db:seed --class=CommentSeeder
 6) Then set up project:
 php artisan serve
 7) Have a try at all routes:
+
 GET /{ENDPOINT} - See all
+
 GET /{ENDPOINT}?sort=views&sortType=desc&page=1&perPage=20 - Use filters for sorting things sort, sortType, page и perPage
+
 GET /{ENDPOINT}/{id} - See one entity
+
 POST /{ENDPOINT} - Add entity
+
 PATCH /{ENDPOINT}/{id} - Update entity
+
 DELETE /{ENDPOINT}/{id} - Delete entity
+
 
 ENDPOINT could be users, posts, comments
 
