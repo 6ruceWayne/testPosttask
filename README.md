@@ -5,8 +5,11 @@
 php artisan migrate 
 5) For seeders:
 php artisan db:seed --class=UserSeeder
+
 php artisan db:seed --class=PostSeeder
+
 php artisan db:seed --class=CommentSeeder
+
 6) Then set up project:
 php artisan serve
 7) Have a try at all routes:
