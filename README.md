@@ -4,6 +4,7 @@
 4) For migration:
 php artisan migrate 
 5) For seeders:
+
 php artisan db:seed --class=UserSeeder
 
 php artisan db:seed --class=PostSeeder
